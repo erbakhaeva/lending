@@ -11,6 +11,7 @@
     <header class="header"> 
       <div class="wrapper header-contenteiner"> 
         <div class="logo"> IC "REPAIR DESING PROJECT"</div>
+        <div class="conteiner_nav_duble"> <nav class="nav_duble"> <a href="#phone">+7 (928) 768-32-39</a></nav></div>
         <nav> 
          <ul class="header-navigation"> 
            <li class="header-navigation-item"><a href="#home">HOME</a></li>
@@ -40,13 +41,15 @@
   </section> 
 
   <section class="Completed">
-   <div class="conteiner_Completed"> 
-        <nav class="conteiner_navigation_completed">
+   <div class="conteiner_Completed">
+      <div class="conteiner_navigation_completed">
+        <nav>
          <ul class="navigation_completed">
-          <li class="navigation_item_completed"><a href="#Admiral">Rostov-on-Don, Admiral</a></li>
-          <li class="navigation_item_completed"><a href="#Thieves">Sochi Thieves </a></li>
-          <li class="navigation_item_completed"><a href="#patriotic">Rostov-on-Don Patriotic</a></li></ul> 
+          <li class="navigation_item_completed"><a href="Admiral">Rostov-on-Don, Admiral</a></li>
+          <li class="navigation_item_completed"><a href="Thieves">Sochi Thieves </a></li>
+          <li class="navigation_item_completed"><a href="patriotic">Rostov-on-Don Patriotic</a></li></ul> 
         </nav>
+      </div>
       <div class="green">
         <div class="pinck">
              <div class="conteiner_title_completed"><h2 class="h2">COMPLETED <br> PROJECTS</h2></div>
@@ -68,8 +71,19 @@
         </div>
         <div class="conteiner_imagege"><img src="Images/image 2.1.png" alt="image">
         </div> 
-        <div class="conteiner_imagege_dubl"><img src="Images/image 2.jpg" alt="image">
-        </div>
+
+        <div class="slider">
+          <div class="item" style="display: block;">
+            <img src="Images/image 2.png" alt="image">
+          </div>
+          <div class="item" style="display: none;">
+            <img src="Images/image 5.png" alt="image">
+          </div>
+          <a class="prev" onclick="minusSlide()"><img class="ljuk" src="Images/Vector ().svg" alt="image"></a>
+          <a class="next" onclick="plusSlide()"><img class="lju" src="Images/Vector (Stroke).svg" alt="image"></a>
+        </div>     
+        <script src="js/script.js"></script>
+        
       </div>
             <div class="conteiner_grid_duble">
               <div class="grid_item"><h4 class="h4">CITY:</h4></div>
@@ -164,7 +178,7 @@
         <h3 class="title h3-center black-title"> TYPES OF REPAIR</h3>
         <div class="vector-group">
           <div class="line"></div>
-            <img class="camera" src="Images/Vector (1).svg">
+            <img class="camera" src="Images/Vector (1).svg" alt="vectir">
           <div class="line"></div>
         </div>
       </div>  
@@ -220,7 +234,7 @@
           <div class="button button-smol"> FROM 4000 RUB / M2</div> 
         </div>
       </div>
-  <div class="forma_fon"> <img src="Images/image 6.1.png"></div>
+    <div class="forma_fon"> <img src="Images/image 6.1.png" alt="image"></div>
       <div class="forma"> 
           <div class="item-1"> 
             <div class="box 1"> 
@@ -268,7 +282,7 @@
       <div class="pig"> 
        <div class="conteiner_pig"> 
         <div class="circle_pig"> 
-          <img class="pig_vector" src="Images/555.svg" > 
+          <img class="pig_vector" src="Images/555.svg" alt="vector" > 
         </div>  
         <div class="conteiner-text_pig"> 
           <p class="text_pig">Help save 10 - 20% of the <br> cost of materials</p>
@@ -276,27 +290,40 @@
       </div>
     </div>
   </section> 
-    <div class="title_Realize_duble"> <h class="h2 hh"> We realize your <br> wildest fantasies</h2> </div>
-    <div class="foto_Realize_duble_conteiner"> <img class="foto_Realize" src="Images/image 5.3.svg" alt="foto"></div>
-    <section class="Realize">
-  
+    <div class="title_Realize_duble"> <h class="h2 hh"> We realize your <br> wildest fantasies</h2></div>
+    <div class="slider_slider">
+        <div class="item_item" style="display: block;">
+          <img src="Images/image 5.3.svg" alt="image">
+        </div>
+        <div class="item_item" style="display: none;">
+          <img src="Images/image 2.png" alt="image">
+        </div>
+        <a class="prev_prev" onclick="minusSlide()"><img class="ljukk" src="Images/Vector ().svg" alt="image"></a>
+        <a class="next_next" onclick="plusSlide()"><img class="ljuu" src="Images/Vector (Stroke).svg" alt="image"></a>
+    </div>     
+    <script src="js/script.js"></script>
+
+  <section class="Realize">
    <div class="piche-conteiner">
      <div class="conteiner_Realize">
       <div class="conteiner_5">
         <div class="realize_block_1"> 
       <div class="title_Realize"> <h class="h2 hh"> We realize your <br> wildest fantasies</h2> </div>
-      <div clacc="spesoc_realize_Realize">  
-        <p class="spesoc-item_realize"> Empire</p>
-        <p class="spesoc-item_realize"> Classical</p>
-        <p class="spesoc-item_realize"> Loft </p>
-        <p class="spesoc-item_realize"> Minimalism</p>
-        <p class="spesoc-item_realize"> Provence</p>
-        <p class="spesoc-item_realize"> Romanticism </p>
-        <p class="spesoc-item_realize"> Scandinavian style </p>
-        <p class="spesoc-item_realize"> Mediterranean style</p>
-        <p class="spesoc-item_realize"> High tech </p>
-        <p class="spesoc-item_realize"> Eclecticism </p> </div>
-        </div> 
+      <nav class="conteiner_spesoc_realize_Realize">
+        <ol class="spesoc_realize_Realize">  
+          <li class="spesoc-item_realize"><a href="#Empire">Empire</a></li>
+          <li class="spesoc-item_realize"><a href="#Classical">Classical</a></li>
+          <li class="spesoc-item_realize"><a href="#Loft">Loft</a></li>
+          <li class="spesoc-item_realize"><a href="#Minimalism">Minimalism</a></li>
+          <li class="spesoc-item_realize"><a href="#Provence"> Provence</a></li>
+          <li class="spesoc-item_realize"><a href="#Romanticism">Romanticism</a></li>
+          <li class="spesoc-item_realize"><a href="#Scandinavian style">Scandinavian style </a></li>
+          <li class="spesoc-item_realize"><a href="#Mediterranean style">Mediterranean style</a></li>
+          <li class="spesoc-item_realize"><a href="#High tech">High tech</a></li>
+          <li class="spesoc-item_realize"><a href="#Eclecticism">Eclecticism</a></li>
+        </ol>
+      </nav>
+       </div> 
         <div class="realize_block_2"> 
       <div class="grid_realize">
          <div class="grid-realize_1"> <img class="grid_img_4" src="Images/4.jpg" alt="фото"></div>
@@ -318,7 +345,7 @@
         <h3 class="title h3-center black-title"> OUR CLIENTS</h3>
         <div class="vector-group">
           <div class="line"></div>
-            <img class="camera" src="Images/Group 43.svg">
+            <img class="camera" src="Images/Group 43.svg" alt="camera">
           <div class="line"></div>
         </div>
         <div class="conteiner_nadp"> 
@@ -337,7 +364,15 @@
                 <br>The repair process was turned out in terms, faster than anticipated. 
                 Team mobile and professional. Works performed qualitatively without comments. 
                 Quality satisfied. Prices democratic. I recommend these masters.</p></div>
-            <div class="button bu"> FROM 1800 RUB / M2</div>
+            <div class="button bu"> 
+              <div class="bloc_size"> 
+                <div class="img_size_1"> <img src="Images/Group 21.4.svg" alt="vector"> </div>
+                <p> 40 M2 </p>
+                <div class="img_size_2"> <img src="Images/dftghy.svg" alt="vector"> </div>
+                <div class="img_size_3"> <img src="Images/group25.svg" alt="vector"> </div>
+                <p> 48 DAYS </p>
+              </div>
+            </div>
           </div>
             <div class="conteiner_Clients_spesoc"> 
               <div class="conteiner_subtitle_img">
@@ -351,7 +386,15 @@
                 <br>The repair process was turned out in terms, faster than anticipated. 
                 Team mobile and professional. Works performed qualitatively without comments. 
                 Quality satisfied. Prices democratic. I recommend these masters.</p></div>
-            <div class="button bu"> FROM 1800 RUB / M2</div>
+            <div class="button bu"> 
+              <div class="bloc_size"> 
+                <div class="img_size_1"> <img src="Images/Group 21.4.svg" alt="vector"> </div>
+                <p> 90 M2 </p>
+                <div class="img_size_2"> <img src="Images/dftghy.svg" alt="vector"> </div>
+                <div class="img_size_3"> <img src="Images/group25.svg" alt="vector"> </div>
+                <p> 128 DAYS </p>
+              </div>
+            </div>
           </div>
            <div class="conteiner_Clients_spesoc"> 
             <div class="conteiner_subtitle_img">
@@ -364,11 +407,19 @@
             Great thanks I express the project to Georgia for its professionalism and approach. 
             <br>The repair process was turned out in terms, faster than anticipated. 
             Team mobile and professional. Works performed qualitatively without comments. 
-            Quality satisfied. Prices democratic. I recommend these masters.</p></div>
-            <div class="button bu"> FROM 1800 RUB / M2</div>
+            Quality satisfied. Prices democratic. I recommend these masters.</p>
+          </div>
+            <div class="button bu"> 
+              <div class="bloc_size"> 
+                <div class="img_size_1"> <img src="Images/Group 21.4.svg" alt="vector"> </div>
+                <p> 56 M2 </p>
+                <div class="img_size_2"> <img src="Images/dftghy.svg" alt="vector"> </div>
+                <div class="img_size_3"> <img src="Images/group25.svg" alt="vector"> </div>
+                <p> 86 DAYS </p>
+              </div>
+            </div>
         </div>
-      </div>
-   
+      </div> 
   </section>
       <div class="conteiner_Frame">
         <div class="conteiner_Frame_Frame"> <img src="Images/Frame.jpg"  alt="фото"> </div>
@@ -440,7 +491,7 @@
         <div class="conteiner_vecnor_1 vector_1"> <img src="Images/Group 3.svg"  alt="фото"> </div>
         <div class="conteiner_vecnor_1 vector_2"> <img src="Images/Group 4.svg"  alt="фото"> </div>
       </div>
-   </div>
+    </div>
 
    </div>
     <div class="LAST_overlay_blac">
